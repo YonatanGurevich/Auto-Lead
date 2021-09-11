@@ -19,8 +19,8 @@ with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
     for m in range(TO_SEND_SEO):
         # Edit according to the required format
         body = '''name: yonatan
-phone: 0524798290
-email: jonatangurevich4@gmail.com
+phone:  *** Enter phone number ***
+email:  *** Enter email address ***
 product: DevOps
 branch: tel-aviv'''
 
